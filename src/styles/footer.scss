@@ -1,0 +1,40 @@
+.footer {
+  color: #888;
+
+  .footer-body {
+    .footer-body__left {
+      .footer-brand {
+        .footer-brand__logo {
+        }
+        .footer-brand__description {
+          span {
+          }
+        }
+      }
+    }
+    .footer-body__right {
+      .footer-links {
+        .footer-links__title {
+        }
+        .footer-links__items {
+          .footer-links__item {
+          }
+        }
+      }
+    }
+  }
+
+  .footer-contacts {
+    .footer-contacts__left {
+      span {
+      }
+    }
+
+    .footer-contacts__right {
+      .footer-contacts__list {
+        .footer-contacts__item {
+        }
+      }
+    }
+  }
+}

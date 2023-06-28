@@ -6,8 +6,10 @@ export default function Footer() {
           <div className="footer-brand">
             <div className="footer-brand__logo"></div>
             <div className="footer-brand__description">
-              A good design is not only aesthetically pleasing, but also
-              functional. It should be able to solve the problem
+              <span>
+                A good design is not only aesthetically pleasing, but also
+                functional. It should be able to solve the problem
+              </span>
             </div>
           </div>
         </div>
