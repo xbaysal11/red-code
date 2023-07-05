@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="footer-body">
         <div className="footer-body__left">
           <div className="footer-brand">
-            <div className="footer-brand__logo"></div>
+            <div className="footer-brand__logo"><span>LOGO</span></div>
             <div className="footer-brand__description">
               <span>
                 A good design is not only aesthetically pleasing, but also
@@ -17,10 +17,10 @@ export default function Footer() {
           <div className="footer-links">
             <div className="footer-links__title">Sections</div>
             <div className="footer-links__items">
-              <div className="footer-links__item">Home</div>
-              <div className="footer-links__item">Home 2</div>
-              <div className="footer-links__item">Home 3</div>
-              <div className="footer-links__item">Home 4</div>
+              <div className="footer-links__item"><a href="#">Home</a></div>
+              <div className="footer-links__item"><a href="#">Home1</a></div>
+              <div className="footer-links__item"><a href="#">Home2</a></div>
+              <div className="footer-links__item"><a href="#">Home3</a></div>
             </div>
           </div>
         </div>

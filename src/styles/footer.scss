@@ -1,23 +1,46 @@
 .footer {
-  color: #888;
-
   .footer-body {
+    display: flex;
+    flex-basis: 50%;
+    height: 16.75rem;
+    background-color: $primary;
+    align-items: center;
     .footer-body__left {
+      margin-left: $layout-margin;
       .footer-brand {
+        width: 50%;
+        align-self: center;
         .footer-brand__logo {
+          font-weight: bolder;
+          font-size: 18px;
         }
         .footer-brand__description {
           span {
+            font-weight: 400;
+            font-size: 14px;
+            color: $text-gray;
+            line-height: 28px;
           }
         }
       }
     }
     .footer-body__right {
+      margin-right: $layout-margin;
+
       .footer-links {
         .footer-links__title {
+          font-weight: 600;
+          font-size: 16px;
         }
         .footer-links__items {
           .footer-links__item {
+            font-weight: 400;
+            font-size: 14px;
+            color: $text-gray;
+            line-height: 38px;
+            a {
+              color: $text-gray;
+            }
           }
         }
       }
@@ -25,13 +48,33 @@
   }
 
   .footer-contacts {
+    background-color: $black;
+    display: flex;
+    flex-basis: 50%;
+    width: auto;
+    height: 5.75rem;
+    align-items: center;
+
     .footer-contacts__left {
+      align-self: start;
+      width: 100%;
+      align-self: center;
+      margin-left: $layout-margin;
       span {
+        font-weight: 400;
+        font-size: 14px;
+        color: $text-gray;
       }
     }
 
     .footer-contacts__right {
+      width: 100%;
+      align-self: center;
+      margin-right: $layout-margin;
       .footer-contacts__list {
+        display: flex;
+        gap: 16px;
+        justify-content: end;
         .footer-contacts__item {
         }
       }

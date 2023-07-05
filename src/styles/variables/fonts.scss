@@ -1,0 +1,21 @@
+
+@font-face {
+  font-family: "Codec Pro";
+  font-weight: 700;
+  src: url("src/assets/fonts/CodecPro-Heavy.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Codec Pro";
+  font-weight: 400;
+  src: url("src/assets/fonts/CodecPro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Codec Pro";
+  font-weight: 600;
+  src: url("src/assets/fonts/CodecPro-Bold.ttf") format("truetype");
+}
+
+
+$font_family: "Codec Pro", sans-serif;
