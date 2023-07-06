@@ -1,0 +1,113 @@
+.pricing {
+  padding: 50px 0 100px 0;
+  .pricing-content {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    .pricing-header {
+      display: flex;
+      align-items: center;
+      .pricing-header__title {
+        flex-basis: 50%;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 80px;
+        letter-spacing: 0em;
+        color: $white;
+        margin-left: $layout-margin;
+      }
+      .pricing-header__tabs {
+        flex-basis: 50%;
+        margin-right: $layout-margin;
+      }
+    }
+    .pricing-body {
+      .pricing-cards {
+        display: flex;
+        justify-content: space-between;
+        margin-left: $layout-margin;
+        margin-right: $layout-margin;
+        .pricing-card {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          position: relative;
+          background: $primary;
+          padding: 44px 32px 26px 32px;
+          border-radius: 20px;
+          min-width: 350px;
+          .pricing-card__icon {
+            position: absolute;
+            width: 76px;
+            height: 76px;
+            border-radius: 50%;
+            background: #222228;
+            top: -38px;
+            text-align: center;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+          }
+          .pricing-card__title {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 32px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: $white;
+          }
+          .pricing-card__divider {
+            background: $divider;
+            height: 1px;
+          }
+          .pricing-card__privileges {
+            display: flex;
+            flex-direction: column;
+            gap: 26px;
+            padding-top: 12px;
+            padding-bottom: 28px;
+            .pricing-card__privilege {
+              display: flex;
+              gap: 16px;
+              align-items: center;
+              .pricing-card__privilege-status {
+              }
+              .pricing-card__privilege-name {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+                letter-spacing: 0em;
+                color: $white;
+                &.unaviable {
+                  color: $text-gray;
+                }
+              }
+            }
+          }
+          .pricing-card__footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .pricing-card__price {
+              display: flex;
+              font-size: 40px;
+              font-weight: 600;
+              line-height: 64px;
+              letter-spacing: 0em;
+              color: $white;
+              span {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 32px;
+                letter-spacing: 0em;
+                color: $text-gray;
+              }
+            }
+            .pricing-card__button {
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -4,11 +4,8 @@
   font-family: $font_family;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  // background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -16,11 +13,39 @@
   -webkit-text-size-adjust: 100%;
 }
 
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
-a{
+
+a {
   text-decoration: none;
-  color: $white;
+  color: $text-gray;
+  font-weight: 400;
+  font-size: 14px;
+  color: $text-gray;
+  line-height: 38px;
+
+  &:hover {
+    color: $white;
+  }
+}
+
+button {
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  &.button__default {
+    background: $gradient;
+    padding: 12px 28px 12px 28px;
+    border-radius: 5px;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    &:hover {
+      background: $red;
+    }
+  }
 }

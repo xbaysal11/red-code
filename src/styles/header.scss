@@ -1,0 +1,49 @@
+.header {
+  .header-body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 96px;
+    .header-body__left {
+      margin-left: $layout-margin;
+      flex-basis: 50%;
+    }
+    .header-body__right {
+      flex-basis: 50%;
+
+      display: flex;
+      margin-right: $layout-margin;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 16px;
+
+      .navigation {
+        ul {
+          display: flex;
+          gap: 16px;
+
+          li {
+            list-style: none;
+            a {
+            }
+          }
+        }
+      }
+      .header-button {
+        button {
+          appearance: none;
+          border: none;
+          background: $gradient;
+          padding: 12px 28px 12px 28px;
+          border-radius: 5px;
+          gap: 10px;
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 20px;
+          letter-spacing: 0em;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

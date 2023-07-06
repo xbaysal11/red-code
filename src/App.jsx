@@ -1,12 +1,12 @@
 import "./App.scss";
-import { Header, Main, Footer, Plans } from "./components";
+import { Header, Main, Footer, Pricing } from "./components";
 
 function App() {
   return (
     <>
       <Header />
-      <Main />
-      <Plans />
+      {/* <Main /> */}
+      <Pricing />
       <Footer />
     </>
   );
